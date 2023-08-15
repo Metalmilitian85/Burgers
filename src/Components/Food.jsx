@@ -1,7 +1,7 @@
 import React from 'react'
 import Data from './data.json'
 import '../index.css'
-import { useSearchParams } from 'react-router-dom'
+import { useSearchParams, Link } from 'react-router-dom'
 
 export default function Home() {
 
@@ -44,9 +44,11 @@ const foodType = typeFilter ? Data.filter(item => item.category === typeFilter) 
                 {foodType.map(item => {
                     return (
                         <div className="menuitems hover:scale-[105%] ease-in-out duration-75 mx-auto bg-white">
+                          <Link to={`/Food/${item.id}`}>
                             <h3>{ item.title }</h3>
                             <p>{ item.info }</p>
                             <img src={ item.pic } className="foodpics" />
+                          </Link>
                         </div>
                     )
                 })}
