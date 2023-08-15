@@ -9,6 +9,7 @@ import Careers from './Components/Careers'
 import Footer from './Components/Footer'
 import ScrollToTop from './Components/ScrollToTop'
 import Food from './Components/Food'
+import Foodinfo from './Components/Foodinfo'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/careers" element={<Careers />} />
           <Route path="/food" element={<Food />} />
+          <Route path="/food/:id" element={<Foodinfo />} />
         </Routes>
         <Footer />
       </BrowserRouter>
