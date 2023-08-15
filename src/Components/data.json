@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1,
+        "title": "Cheese Burger",
+        "category": "burger",
+        "info": "Our standard classic with a thick slice of American Cheese!",
+        "pic": "/cheeseburger.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Bacon Burger",
+        "category": "burger",
+        "info": "Our classic Cheese Burger with crispy bacon added!",
+        "pic": "/baconcheese.jpeg"
+    },
+    {
+        "id": 3,
+        "title": "BBQ Bacon Burger",
+        "category": "burger",
+        "info": "Our Bacon Burger smothered in BBQ sauce and grilled onions!",
+        "pic": "/BBQburger.webp"
+    },
+    {
+        "id": 4,
+        "title": "Chicken Burger",
+        "category": "burger",
+        "info": "A classic standard Chicken burger. Comes standard with mayo and lettuce.",
+        "pic": "/chickenburger.webp"
+    },
+    {
+        "id": 5,
+        "title": "Spicy Chicken Burger",
+        "category": "burger",
+        "info": "Our standard Chicken Burger seasoned with spices to give it a slight kick!",
+        "pic": "/spicychicken.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Fire Chicken Burger",
+        "category": "burger",
+        "info": "Our hottest menu option for those that love a good sweat!",
+        "pic": "/firechicken.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Classic Fries",
+        "category": "sides",
+        "info": "Our traditional homestyle fries!",
+        "pic": "/fries.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Steak Fries",
+        "category": "sides",
+        "info": "Fries seasoned with our homestyle spices, but thicker for a heartier meal!",
+        "pic": "/steakfries.webp"
+    },
+    {
+        "id": 9,
+        "title": "Curly Fries",
+        "category": "sides",
+        "info": "The name says it all!",
+        "pic": "/curlyfries.jpg"
+    },
+    {
+        "id": 10,
+        "title": "Tater Tots",
+        "category": "sides",
+        "info": "Classic tots with our homestyle seasoning!",
+        "pic": "/tots.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Ice Cream Sundae",
+        "category": "desert",
+        "info": "A classic treat available in Hot Fudge,Caramel, and Strawberry!",
+        "pic": "/sundaes.png"
+    },
+    {
+        "id": 12,
+        "title": "Banana Split",
+        "category": "desert",
+        "info": "This treat needs no introduction!",
+        "pic": "/bananasplit.jpg"
+    },
+    {
+        "id": 13,
+        "title": "Ice Cream Cone",
+        "category": "desert",
+        "info": "The iconic standard of ice cream treats! Available in chocolate or vanilla!",
+        "pic": "/cones.webp"
+    },
+    {
+        "id": 14,
+        "title": "Shakes",
+        "category": "desert",
+        "info": "Classics! Available in chocolate, vanilla, and strawberry!",
+        "pic": "/shakes.jpg"
+    }
+]
