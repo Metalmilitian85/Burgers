@@ -5,6 +5,7 @@ import data from './data.json';
 export default function Foodinfo() {
     const params = useParams();
     const [item, setItem] = useState(null);
+
   
     useEffect(() => {
 
