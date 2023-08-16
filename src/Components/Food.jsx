@@ -19,6 +19,7 @@ const foodType = typeFilter ? Data.filter(item => item.category === typeFilter) 
               <div className="italic text-center my-5 mx-8 font-semibold">
                 <p>** All beef burgers come standard with lettuce, tomato, pickles, and onions. **</p>
                 <p>** All chicken sandwiches come standard with lettuce and mayo. **</p>
+                <p>** All combos come with a side and a soft drink.**</p>
               </div>
           </div>
               <div className="flex flex-row justify-center">
