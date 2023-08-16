@@ -4,8 +4,10 @@ export default function Locations() {
     return (
         <div>
             <h1 className="text-center font-bold text-2xl mb-3 mt-7">Locations</h1>
-            <p className="font-semibold text-center my-2">Serving LA for 20 years!</p>
-            <img src="/mapstars.jpg" className="max-w-[60%] m-auto" />
+              <div className="">
+                <p className="font-semibold text-center my-2">Serving LA for 20 years!</p>
+                <img src="/mapstars.jpg" className="max-w-[60%] m-auto" />
+              </div>
             <div>
                 <h2 className="mt-7">Beverly Hills</h2>
                   <div className="text-center mb-3">

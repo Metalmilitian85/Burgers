@@ -3,6 +3,7 @@ import React from 'react'
 export default function Careers() {
     return (
         <div>
+          <div className="bg-white pt-1 pb-10">
             <h1 className="text-center font-bold text-2xl mb-3 mt-7">Careers</h1>
               <h2>Join our Team!</h2>
               <div className="text-center mx-8 mt-4">
@@ -13,6 +14,7 @@ export default function Careers() {
                 <p>If all of this sounds good to you then please feel free to contact us for any avilable open position! Interviews are done in-person 
                     Mondays and Wednesdays at 10am and 3pm.</p>
               </div>
+          </div>
             <div className="flex flex-wrap text-center mx-8 mt-8 mb-48">
               <div className="position">
                 <h2>Cashier</h2>

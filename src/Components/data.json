@@ -51,7 +51,7 @@
         "id": 7,
         "title": "Classic Fries",
         "category": "sides",
-        "info": "Our traditional homestyle fries!",
+        "info": "Our traditional homestyle fries always come fresh to serve!",
         "pic": "/fries.jpg",
         "calories": 420
     },
@@ -67,7 +67,7 @@
         "id": 9,
         "title": "Curly Fries",
         "category": "sides",
-        "info": "The name says it all!",
+        "info": "Notorious for being the most popular based fry style!",
         "pic": "/curlyfries.jpg",
         "calories": 380
     },
@@ -91,7 +91,7 @@
         "id": 12,
         "title": "Banana Split",
         "category": "desert",
-        "info": "This treat needs no introduction!",
+        "info": "A true classic that needs no introduction!",
         "pic": "/bananasplit.jpg",
         "calories": 710
     },
