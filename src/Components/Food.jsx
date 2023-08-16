@@ -46,7 +46,6 @@ const foodType = typeFilter ? Data.filter(item => item.category === typeFilter) 
                         <div className="menuitems hover:scale-[105%] ease-in-out duration-75 mx-auto bg-white">
                           <Link to={`/Food/${item.id}`}>
                             <h3>{ item.title }</h3>
-                            <p>{ item.info }</p>
                             <img src={ item.pic } className="foodpics" />
                           </Link>
                         </div>

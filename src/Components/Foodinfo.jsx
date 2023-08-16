@@ -20,13 +20,16 @@ export default function Foodinfo() {
   
     return (
         <div>
-            <h1>Food Info</h1>
             {/* Check if item exists before trying to access its properties */}
             {item ? (
-                <div className="flex flex-wrap border-4 border-red-500 rounded-lg mx-7">
-                    <img src={item.pic} alt={item.name} />
-                    <p>{item.category}</p>
-                    <p>{item.info}</p>
+                <div className="flex flex-wrap border-4 border-red-500 rounded-lg bg-white mt-7 mx-auto justify-center max-w-[80%] md:max-w-[60%]">
+                    <h2 className="my-auto mx-auto">{item.title}</h2>
+                    <img src={item.pic} alt={item.name} className="w-[400px] h-[300px] mx-auto" />
+                  <div className="flex flex-col mx-auto">  
+                    <h1 className="font-bold text-center my-auto">Item Info</h1>
+                    <p className="my-auto mx-auto">{item.info}</p>
+                    <p className="text-center"><strong>Calories:</strong> {item.calories}</p>
+                  </div>
                 </div>
             ) : (
                 <p>Loading...</p>

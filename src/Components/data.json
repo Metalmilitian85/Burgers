@@ -4,97 +4,111 @@
         "title": "Cheese Burger",
         "category": "burger",
         "info": "Our standard classic with a thick slice of American Cheese!",
-        "pic": "/cheeseburger.jpg"
+        "pic": "/cheeseburger.jpg",
+        "calories": 520
     },
     {
         "id": 2,
         "title": "Bacon Burger",
         "category": "burger",
         "info": "Our classic Cheese Burger with crispy bacon added!",
-        "pic": "/baconcheese.jpeg"
+        "pic": "/baconcheese.jpeg",
+        "calories": 920
     },
     {
         "id": 3,
-        "title": "BBQ Bacon Burger",
+        "title": "BBQ Bacon",
         "category": "burger",
         "info": "Our Bacon Burger smothered in BBQ sauce and grilled onions!",
-        "pic": "/BBQburger.webp"
+        "pic": "/BBQburger.webp",
+        "calories": 1089
     },
     {
         "id": 4,
         "title": "Chicken Burger",
         "category": "burger",
         "info": "A classic standard Chicken burger. Comes standard with mayo and lettuce.",
-        "pic": "/chickenburger.webp"
+        "pic": "/chickenburger.webp",
+        "calories": 480
     },
     {
         "id": 5,
-        "title": "Spicy Chicken Burger",
+        "title": "Spicy Chicken",
         "category": "burger",
         "info": "Our standard Chicken Burger seasoned with spices to give it a slight kick!",
-        "pic": "/spicychicken.jpg"
+        "pic": "/spicychicken.jpg",
+        "calories": 450
     },
     {
         "id": 6,
-        "title": "Fire Chicken Burger",
+        "title": "Fire Chicken",
         "category": "burger",
         "info": "Our hottest menu option for those that love a good sweat!",
-        "pic": "/firechicken.jpg"
+        "pic": "/firechicken.jpg",
+        "calories": 520
     },
     {
         "id": 7,
         "title": "Classic Fries",
         "category": "sides",
         "info": "Our traditional homestyle fries!",
-        "pic": "/fries.jpg"
+        "pic": "/fries.jpg",
+        "calories": 420
     },
     {
         "id": 8,
         "title": "Steak Fries",
         "category": "sides",
         "info": "Fries seasoned with our homestyle spices, but thicker for a heartier meal!",
-        "pic": "/steakfries.webp"
+        "pic": "/steakfries.webp",
+        "calories": 460
     },
     {
         "id": 9,
         "title": "Curly Fries",
         "category": "sides",
         "info": "The name says it all!",
-        "pic": "/curlyfries.jpg"
+        "pic": "/curlyfries.jpg",
+        "calories": 380
     },
     {
         "id": 10,
         "title": "Tater Tots",
         "category": "sides",
         "info": "Classic tots with our homestyle seasoning!",
-        "pic": "/tots.jpg"
+        "pic": "/tots.jpg",
+        "calories": 350
     },
     {
         "id": 11,
         "title": "Ice Cream Sundae",
         "category": "desert",
         "info": "A classic treat available in Hot Fudge,Caramel, and Strawberry!",
-        "pic": "/sundaes.png"
+        "pic": "/sundaes.png",
+        "calories": 450
     },
     {
         "id": 12,
         "title": "Banana Split",
         "category": "desert",
         "info": "This treat needs no introduction!",
-        "pic": "/bananasplit.jpg"
+        "pic": "/bananasplit.jpg",
+        "calories": 710
     },
     {
         "id": 13,
         "title": "Ice Cream Cone",
         "category": "desert",
         "info": "The iconic standard of ice cream treats! Available in chocolate or vanilla!",
-        "pic": "/cones.webp"
+        "pic": "/cones.webp",
+        "calories": 250
     },
     {
         "id": 14,
         "title": "Shakes",
         "category": "desert",
         "info": "Classics! Available in chocolate, vanilla, and strawberry!",
-        "pic": "/shakes.jpg"
+        "pic": "/shakes.jpg",
+        "calories": 500
     }
 ]
