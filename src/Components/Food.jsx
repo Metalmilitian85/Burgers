@@ -2,6 +2,7 @@ import React from 'react'
 import Data from './data.json'
 import '../index.css'
 import { useSearchParams, Link } from 'react-router-dom'
+import Aos from 'aos'
 
 export default function Home() {
 
@@ -43,7 +44,7 @@ const foodType = typeFilter ? Data.filter(item => item.category === typeFilter) 
             <div className="flex flex-wrap">
                 {foodType.map(item => {
                     return (
-                        <div className="menuitems hover:scale-[105%] ease-in-out duration-75 mx-auto bg-white">
+                        <div className="menuitems hover:scale-[105%] ease-in-out duration-75 mx-auto bg-white" >
                           <Link to={`/Food/${item.id}`}>
                             <h3>{ item.title }</h3>
                             <img src={ item.pic } className="foodpics" />
