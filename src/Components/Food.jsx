@@ -14,12 +14,14 @@ const foodType = typeFilter ? Data.filter(item => item.category === typeFilter) 
 
     return (
         <div>
+          <div className="bg-white pt-1 pb-5 mb-5">
             <h1 className="text-center font-bold text-2xl mt-7">Food Menu</h1>
               <div className="italic text-center my-5 mx-8 font-semibold">
                 <p>** All beef burgers come standard with lettuce, tomato, pickles, and onions. **</p>
                 <p>** All chicken sandwiches come standard with lettuce and mayo. **</p>
               </div>
-              <div>
+          </div>
+              <div className="flex flex-row justify-center">
                 <button 
                     onClick={() => setSearchParams({category: "burger"})}
                     className={`filterbuttons hover:scale-[105%] ease-in-out duration-75 

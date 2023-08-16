@@ -28,7 +28,9 @@ export default function Foodinfo() {
                   <div className="flex flex-col mx-auto">  
                     <h1 className="font-bold text-center md:my-auto md:text-2xl">Item Info</h1>
                     <p className="my-3 mx-auto text-center md:my-auto md:text-2xl">{item.info}</p>
-                    <p className="text-center mb-3 md:my-auto md:text-2xl md:pb-3"><strong>Calories:</strong> {item.calories}</p>
+                    <p className="text-center md:my-auto md:text-2xl md:pb-3"><strong>Single:</strong> {item.single}</p>                    
+                    <p className="text-center mb-3 md:my-auto md:text-2xl md:pb-3"><strong>Combo:</strong> {item.combo}</p>      
+                    <p className="text-center mb-3 md:my-auto md:text-2xl md:pb-3"><strong>Calories:</strong> {item.calories}</p>            
                   </div>
                 </div>
             ) : (

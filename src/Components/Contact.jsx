@@ -19,7 +19,7 @@ export default function Contact() {
                   </div>
               </div>
           </div>
-            <div className="border-4 border-red-500 rounded-xl bg-white w-[80%] mx-auto h-[450px] mt-8">
+            <div className="border-4 border-red-500 rounded-xl bg-white w-[80%] mx-auto h-[450px] mt-8 md:w-[40%]">
               <Form />
               <button className="button hover:scale-[105%] ease-in-out duration-75">Submit</button>
             </div>
