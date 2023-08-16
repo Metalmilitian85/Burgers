@@ -22,21 +22,26 @@ export default function Foodinfo() {
         <div>
             {/* Check if item exists before trying to access its properties */}
             {item ? (
-                <div className="flex flex-wrap border-4 border-red-500 rounded-lg bg-white mt-7 mx-auto justify-center max-w-[80%] md:max-w-[60%]">
-                    <h2 className="my-auto mx-auto">{item.title}</h2>
-                    <img src={item.pic} alt={item.name} className="w-[400px] h-[300px] mx-auto" />
+                <div className="flex flex-wrap border-4 border-red-500 rounded-[25px] bg-white mt-7 mx-auto justify-center max-w-[80%] md:max-w-[60%]">
+                    <h2 className="my-auto py-5 mx-auto md:text-2xl">{item.title}</h2>
+                    <img src={item.pic} alt={item.name} className="w-[400px] h-[300px] mx-auto pb-5" />
                   <div className="flex flex-col mx-auto">  
-                    <h1 className="font-bold text-center my-auto">Item Info</h1>
-                    <p className="my-auto mx-auto">{item.info}</p>
-                    <p className="text-center"><strong>Calories:</strong> {item.calories}</p>
+                    <h1 className="font-bold text-center md:my-auto md:text-2xl">Item Info</h1>
+                    <p className="my-3 mx-auto text-center md:my-auto md:text-2xl">{item.info}</p>
+                    <p className="text-center mb-3 md:my-auto md:text-2xl"><strong>Calories:</strong> {item.calories}</p>
                   </div>
                 </div>
             ) : (
                 <p>Loading...</p>
             )}
-            <Link to="/">
-                <button>Menu</button>
-            </Link>
+              <div className="flex justify-center my-7 space-x-20 text-white font-semibold">
+                <Link to="/">
+                    <button className="bg-red-500 rounded-3xl w-28 border-2 border-red-700 hover:bg-red-600">Menu</button>
+                </Link>
+                <Link to="">
+                    <button className="bg-red-500 rounded-3xl w-28 border-2 border-red-700 hover:bg-red-600">Add To Cart</button>
+                </Link>
+              </div>
         </div>
     );
 }

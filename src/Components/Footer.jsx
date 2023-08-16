@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Footer() {
     return (
-        <div className="footer">
+        <div className="footer fixed inset-x-0 bottom-0">
           <div>
             <Link to='contact'><h1 className="font-bold hover:underline hover:cursor-pointer decoration-solid decoration-black decoration-2">Contact Us</h1></Link>
                 <p>P: 123-456-7890</p>
