@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className="menubar">
             {!nav ? <AiOutlineClose size={20} className="text-white" /> : <AiOutlineMenu onClick={handleNav} size={20} color="red" className="hover:cursor-pointer" />}
             <h1 className="text-3xl font-bold m-auto">Brian's Burger Bash</h1>
-            <img src="/bag.jpg" className="bag" />
+            <Link to="/cart"><img src="/bag.jpg" className="bag" /></Link>
         </div>
         <div className={!nav ? "fixed left-0 top-0 w-[435px] bg-red-600 text-white h-full border-r border-r-gray-90 ease-in-out duration-200" : "ease-in-out duration-200 fixed left-[-100%]"}>
           <div className="flex">

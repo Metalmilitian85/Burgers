@@ -10,6 +10,7 @@ import Footer from './Components/Footer'
 import ScrollToTop from './Components/ScrollToTop'
 import Food from './Components/Food'
 import Foodinfo from './Components/Foodinfo'
+import Cart from './Components/Cart'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="/careers" element={<Careers />} />
           <Route path="/food" element={<Food />} />
           <Route path="/food/:id" element={<Foodinfo />} />
+          <Route path="/cart" element={<Cart />} />
         </Routes>
         <Footer />
       </BrowserRouter>
