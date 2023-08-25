@@ -1,10 +1,17 @@
-import React, {useState} from 'react'
+import React, {useState, useContext} from 'react'
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
 import { Link } from 'react-router-dom'
+import { CartContext } from '../Context/CartContext'
 
 const Navbar = () => {
 
+    const { cartItems } = useContext(CartContext)
     const [nav, setNav] = useState(true)
+    const [ showModal, setShowModal ] = useState(false);
+
+    const toggle = () => {
+        setShowModal(!showModal)
+    }
 
     const handleNav = () => {
         setNav(!nav)
@@ -15,7 +22,12 @@ const Navbar = () => {
         <div className="menubar">
             {!nav ? <AiOutlineClose size={20} className="text-white" /> : <AiOutlineMenu onClick={handleNav} size={20} color="red" className="hover:cursor-pointer" />}
             <h1 className="text-3xl font-bold m-auto">Brian's Burger Bash</h1>
-            <Link to="/cart"><img src="/bag.jpg" className="bag" /></Link>
+            <div className="flex">
+              <Link to="/cart"><img src="/bag.jpg" className="bag relative" /></Link>
+              {!showModal && <button className='absolute bg-[#FF0000] rounded-full text-white w-6 right-2 bottom-4'
+                  onClick={toggle}
+              >{cartItems.length}</button>}
+            </div>
         </div>
         <div className={!nav ? "fixed left-0 top-0 w-[435px] bg-red-600 text-white h-full border-r border-r-gray-90 ease-in-out duration-200" : "ease-in-out duration-200 fixed left-[-100%]"}>
           <div className="flex">
