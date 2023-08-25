@@ -5,9 +5,8 @@
         "category": "burger",
         "info": "Our standard classic with a thick slice of American Cheese!",
         "pic": "/cheeseburger.jpg",
-        "calories": "520 - 1200",
-        "single": "$3.99",
-        "combo": "$8.99"
+        "calories": "1200",
+        "price": "8.99"
     },
     {
         "id": 2,
@@ -15,7 +14,8 @@
         "category": "burger",
         "info": "Our classic Cheese Burger with crispy bacon added!",
         "pic": "/baconcheese.jpeg",
-        "calories": "920 - 1600"
+        "calories": "1600",
+        "price": "10.99"
     },
     {
         "id": 3,
@@ -23,7 +23,8 @@
         "category": "burger",
         "info": "Our Bacon Burger smothered in BBQ sauce and grilled onions!",
         "pic": "/BBQburger.webp",
-        "calories": "1089 - 1689"
+        "calories": "1689",
+        "price": "11.99"
     },
     {
         "id": 4,
@@ -31,7 +32,8 @@
         "category": "burger",
         "info": "A classic standard Chicken burger. Comes standard with mayo and lettuce.",
         "pic": "/chickenburger.webp",
-        "calories": "480 - 1140"
+        "calories": "1140",
+        "price": "8.99"
     },
     {
         "id": 5,
@@ -39,7 +41,8 @@
         "category": "burger",
         "info": "Our standard Chicken Burger seasoned with spices to give it a slight kick!",
         "pic": "/spicychicken.jpg",
-        "calories": "450 - 1110"
+        "calories": "1110",
+        "price": "9.49"
     },
     {
         "id": 6,
@@ -47,7 +50,8 @@
         "category": "burger",
         "info": "Our hottest menu option for those that love a good sweat!",
         "pic": "/firechicken.jpg",
-        "calories": "520 - 1200"
+        "calories": "1200",
+        "price": "9.99"
     },
     {
         "id": 7,
@@ -55,7 +59,8 @@
         "category": "sides",
         "info": "Our traditional homestyle fries always come fresh to serve!",
         "pic": "/fries.jpg",
-        "calories": 420
+        "calories": 420,
+        "price": "2.99"
     },
     {
         "id": 8,
@@ -63,7 +68,8 @@
         "category": "sides",
         "info": "Fries seasoned with our homestyle spices, but thicker for a heartier meal!",
         "pic": "/steakfries.webp",
-        "calories": 460
+        "calories": 460,
+        "price": "3.99"
     },
     {
         "id": 9,
@@ -71,7 +77,8 @@
         "category": "sides",
         "info": "Notorious for being the most popular based fry style!",
         "pic": "/curlyfries.jpg",
-        "calories": 380
+        "calories": 380,
+        "price": "3.99"
     },
     {
         "id": 10,
@@ -79,7 +86,8 @@
         "category": "sides",
         "info": "Classic tots with our homestyle seasoning!",
         "pic": "/tots.jpg",
-        "calories": 350
+        "calories": 350,
+        "price": "3.49"
     },
     {
         "id": 11,
@@ -87,7 +95,8 @@
         "category": "desert",
         "info": "A classic treat available in Hot Fudge,Caramel, and Strawberry!",
         "pic": "/sundaes.png",
-        "calories": 450
+        "calories": 450,
+        "price": "4.49"
     },
     {
         "id": 12,
@@ -95,7 +104,8 @@
         "category": "desert",
         "info": "A true classic that needs no introduction!",
         "pic": "/bananasplit.jpg",
-        "calories": 710
+        "calories": 710,
+        "price": "5.99"
     },
     {
         "id": 13,
@@ -103,7 +113,8 @@
         "category": "desert",
         "info": "The iconic standard of ice cream treats! Available in chocolate or vanilla!",
         "pic": "/cones.webp",
-        "calories": 250
+        "calories": 250,
+        "price": "1.49"
     },
     {
         "id": 14,
@@ -111,6 +122,7 @@
         "category": "desert",
         "info": "Classics! Available in chocolate, vanilla, and strawberry!",
         "pic": "/shakes.jpg",
-        "calories": 500
+        "calories": 500,
+        "price": "3.99"
     }
 ]

@@ -10,9 +10,11 @@ export default function Footer() {
           </div>
           <div>
             <Link to='locations'><h1 className="font-bold hover:underline hover:cursor-pointer decoration-solid decoration-black decoration-2">Locations</h1></Link>
+              <div className="md:flex md:flex-row md:space-x-5">
                 <p>Beverly Hills</p>
                 <p>Downtown LA</p>
                 <p>Long Beach</p>
+              </div>
           </div>
           <div>
             <Link to='careers'><h1 className="font-bold hover:underline hover:cursor-pointer decoration-solid decoration-black decoration-2">Careers</h1></Link>

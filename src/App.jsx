@@ -11,25 +11,28 @@ import ScrollToTop from './Components/ScrollToTop'
 import Food from './Components/Food'
 import Foodinfo from './Components/Foodinfo'
 import Cart from './Components/Cart'
+import { CartProvider } from './Context/CartContext'
 
 function App() {
 
   return (
     <div>
-      <BrowserRouter>
-        <ScrollToTop />
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/locations" element={<Locations />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/careers" element={<Careers />} />
-          <Route path="/food" element={<Food />} />
-          <Route path="/food/:id" element={<Foodinfo />} />
-          <Route path="/cart" element={<Cart />} />
-        </Routes>
-        <Footer />
-      </BrowserRouter>
+      <CartProvider>
+        <BrowserRouter>
+          <ScrollToTop />
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/locations" element={<Locations />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/careers" element={<Careers />} />
+            <Route path="/food" element={<Food />} />
+            <Route path="/food/:id" element={<Foodinfo />} />
+            <Route path="/cart" element={<Cart />} />
+          </Routes>
+          <Footer />
+        </BrowserRouter>
+      </CartProvider>
     </div>
   )
 }
