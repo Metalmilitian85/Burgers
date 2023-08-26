@@ -5,8 +5,11 @@ export default function Footer() {
     return (
         <div className="footer fixed inset-x-0 bottom-0">
           <div>
-            <Link to='contact'><h1 className="font-bold hover:underline hover:cursor-pointer decoration-solid decoration-black decoration-2">Contact Us</h1></Link>
-                <p>P: 123-456-7890</p>
+            <h1 className="font-bold">Follow Us</h1>
+              <div className="flex mt-2 justify-between">
+                <img className="w-7 h-7 hover:scale-[110%] ease-in-out duration-75 cursor-pointer" src="/facebookicon.png" />
+                <img className="w-7 h-7 hover:scale-[110%] ease-in-out duration-75 cursor-pointer" src="/Instagram_icon.webp" />
+              </div>
           </div>
           <div>
             <Link to='locations'><h1 className="font-bold hover:underline hover:cursor-pointer decoration-solid decoration-black decoration-2">Locations</h1></Link>

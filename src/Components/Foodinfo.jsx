@@ -33,7 +33,10 @@ export default function Foodinfo() {
                     <h1 className="font-bold text-center md:my-auto md:text-2xl">Item Info</h1>
                     <p className="my-3 mx-auto text-center md:my-auto md:text-2xl">{item.info}</p>      
                     <p className="text-center mb-3 md:my-auto md:text-2xl md:pb-3"><strong>Calories:</strong> {item.calories}</p>            
-                    <button onClick={() => addToCart(item)} className="mx-auto border-4 border-red-600 bg-red-300 rounded-xl mb-3 w-[150px] hover:bg-red-500 hover:scale-[105%] ease-in-out duration-75 font-semibold">Add To Cart</button>
+                    <button onClick={() => addToCart(item)} className="mx-auto border-2 border-red-600 bg-red-300 rounded-xl mb-3 w-[150px] hover:bg-red-500 hover:scale-[105%] ease-in-out duration-75 font-semibold">Add To Cart</button>
+                    <Link to="/" className="mx-auto">
+                        <button className="border-2 font-semibold text-center border-red-600 bg-red-300 rounded-xl mb-3 w-[150px] hover:bg-red-500 hover:scale-[105%] ease-in-out duration-75">Return to Menu</button>
+                    </Link>
                   </div>
                 </div>
             ) : (

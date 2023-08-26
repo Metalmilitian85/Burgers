@@ -19,9 +19,9 @@ const Navbar = () => {
 
   return (
     <nav className="h-20 mx-auto p-4 font-bold bg-red-200">
-        <div className="menubar">
+        <div className="menubar flex justify-between">
             {!nav ? <AiOutlineClose size={20} className="text-white" /> : <AiOutlineMenu onClick={handleNav} size={20} color="red" className="hover:cursor-pointer" />}
-            <h1 className="text-3xl font-bold m-auto">Brian's Burger Bash</h1>
+            <Link to="/"><h1 className="text-3xl font-bold m-auto">Brian's Burger Bash</h1></Link>
             <div className="flex">
               <Link to="/cart"><img src="/bag.jpg" className="bag relative" /></Link>
               {!showModal && <button className='absolute bg-[#FF0000] rounded-full text-white w-6 right-2 bottom-4'
